@@ -1,64 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Trivendra | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Personal portfolio of Trivendra - AI & CSE Student">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trivendra | Portfolio</title>
+
+  <meta name="description" content="Trivendra – AI & Computer Science student skilled in Python, Java, Machine Learning, and Web Development." />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-    <h1>Hi, I'm Trivendra</h1>
-    <p>AI & CSE Student | Python | Java | ML</p>
-</header>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>I am a Computer Science (AI) student passionate about AI and software development.I love building clean,user friendly websites and applications</p>
-</section>
-
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>Java</li>
-        <li>Machine Learning</li>
-        <li>SQL</li>
-        <li>Git & Github</li>
-        <li>Javasript</li>
-    </ul>
-</section>
-
-<section id="projects">
-    <h2>Projects</h2>
-    <div>
-        <h3>Portfolio Website</h3>
-        <p>Personal portfolio using HTML, CSS, JS</p>
-        <h4>Mini CRM (Upcoming)</h4>
-        <p>Client lead management system using Node.js</p>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Trivendra</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-</section>
+  </nav>
 
-<section id="resume">
-    <h2>Resume</h2>
-    <a href="resume.pdf" download>Download Resume</a>
-</section>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <h2>Hi, I’m <span>Trivendra</span></h2>
+      <p>AI & Computer Science Student • Python • Java • Machine Learning</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </header>
 
-<section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-        <input type="text" placeholder="Your Name" required><br>
-        <input type="email" placeholder="Your Email" required><br>
-        <textarea placeholder="Your Message"></textarea><br>
-        <button type="submit">Send</button>
-    </form>
-</section>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a Computer Science (AI) student with a strong interest in artificial
+        intelligence, software development, and problem-solving. I enjoy building
+        clean, user-friendly websites and applications with modern technologies.
+      </p>
+    </div>
+  </section>
 
-<footer>
-    <p>© 2026 Trivendra</p>
-</footer>
+  <!-- SKILLS -->
+  <section id="skills" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <span>Python</span>
+        <span>Java</span>
+        <span>Machine Learning</span>
+        <span>SQL</span>
+        <span>Git & GitHub</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Mini CRM (Upcoming)</h3>
+        <p>Client lead management system using Node.js and modern web tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section bg-light">
+    <div class="container center">
+      <h2 class="section-title">Resume</h2>
+      <a href="resume.pdf" download class="btn-outline">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Trivendra. All rights reserved.</p>
+  </footer>
 
 </body>
-
 </html>
